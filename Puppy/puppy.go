@@ -1,5 +1,10 @@
 package puppy
 
+import (
+	"github.com/MDDK/ThirdRepo/fun"
+)
+
 func Bark() string {
-	return "woof! woof!"
+	return fun.SaySomething() + " woof! woof!"
+
 }
